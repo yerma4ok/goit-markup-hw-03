@@ -16,57 +16,64 @@
   </head>
   <body>
     <header>
-      <a href="" class="logo">
-        <span class="logo-1">Web</span><span class="logo-2">Studio</span></a>
-      <nav>
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="site-nav-activ">Студия</a></li>
-          <li>
-            <a href="./portfolio.html" class="site-nav-list">Портфолио</a>
-          </li>
-          <li><a href="" class="site-nav-list">Контакты</a></li>
-        </ul>
-      </nav>
-      <div class="contacts">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </div>
-      <div class="contacts">
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <div class="container header-div">
+        <div class="container header-div">
+          <a href="" class="logo">
+            <span class="logo-1">Web</span><span class="logo-2">Studio</span></a>
+              <nav>
+            <ul class="site-nav list">
+              <li class="iten"><a href="./index.html" class="site-nav-activ">Студия</a></li>
+              <li class="iten">
+                <a href="./portfolio.html" class="site-nav-list">Портфолио</a>
+              </li>
+              <li class="iten"><a href="" class="site-nav-list">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+          <div class="container contacts">
+            <ul class="contacts-list list">
+              <li class="iten"><a href="mailto:info@devstudio.com" class="contacts-info">info@devstudio.com</a></li>
+              <li class="iten"><a href="tel:+380961111111" class="contacts-info">+38 096 111 11 11</a></li>
+            </ul>
+          </div>
       </div>
     </header>
     <main>
-      <section class="heading">
-        <h1 class="heading-text title">
-          ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
-        </h1>
-        <button type="button" class="button-heading-activ">
-          Заказать услугу
-        </button>
-      </section>
-      <section>
+      <div class="container heading-div">
+        <section class="heading">
+          <h1 class="heading-text title">
+            ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
+          </h1>
+          <button type="button" class="button-heading-activ">
+            Заказать услугу
+          </button>
+        </section>
+      </div>
+      <div class="container heading-div">
+        <section class="features">
         <ul class="features-list list">
-          <li>
+          <li class="features-section">
             <h3 class="features-list-title title">Внимание к деталям</h3>
             <p class="features-list-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="features-section">
             <h3 class="features-list-title title">Пунктуальность</h3>
             <p class="features-list-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li  class="features-section">
             <h3 class="features-list-title title">Планирование</h3>
             <p class="features-list-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="features-section">
             <h3 class="features-list-title title">Современные технологии</h3>
             <p class="features-list-text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -74,31 +81,34 @@
             </p>
           </li>
         </ul>
-      </section>
-      <section class="user-work">
-        <h2 class="user-portfolio title">Чем мы занимаемся</h2>
-        <ul class="user-portfolio-list list">
-          <li>
-            <img
-              src="img/img-1.jpg"
-              alt="программирование"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="img/img-2.jpg"
-              alt="мобильные приложения"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img src="img/img-3.jpg" alt="дизайн" width="370" height="294" />
-          </li>
-        </ul>
-      </section>
+       </section>
+      </div>
+     <div class="container heading-div"> 
+       <section class="user-work">
+      <h2 class="user-portfolio title">Чем мы занимаемся</h2>
+      <ul class="user-portfolio-list list">
+        <li class="user-portfolio-img">
+          <img
+            src="img/img-1.jpg"
+            alt="программирование"
+            width="370"
+            height="294"
+          />
+        </li>
+        <li class="user-portfolio-img">
+          <img
+            src="img/img-2.jpg"
+            alt="мобильные приложения"
+            width="370"
+            height="294"
+          />
+        </li class="user-portfolio-img">
+        <li>
+          <img src="img/img-3.jpg" alt="дизайн" width="370" height="294" />
+        </li>
+      </ul>
+    </section>
+  </div>
       <section class="user-team">
         <h2 class="user-team-title title">Наша команда</h2>
         <ul class="user-team-list list">
