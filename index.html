@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,10 +13,9 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
-
 <body>
-  <header>
-    <div class="container header-div header-title">
+  <header class="border">
+    <div class="container header-div">
       <div class="header-div">
         <a href="" class="logo">
           <span class="logo-1">Web</span><span class="logo-2">Studio</span></a>
@@ -40,18 +38,20 @@
     </div>
   </header>
   <main>
-    <div class="container heading-div">
-      <section class="heading">
-        <h1 class="heading-text title">
-          ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
-        </h1>
-        <button type="button" class="button-heading-activ">
-          Заказать услугу
-        </button>
+      <section class="heading-div">
+        <div class="heading">
+          <div class="container">
+            <h1 class="heading-text title">
+              ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
+            </h1>
+          <button type="button" class="button-heading-activ">
+            Заказать услугу
+          </button>
+        </div>
+        </div>
       </section>
-    </div>
-    <div class="container heading-div">
-      <section class="features">
+      <section class="heading-div">
+    <div class="container features">
         <ul class="features-list list">
           <li class="features-section">
             <h3 class="features-list-title title">Внимание к деталям</h3>
@@ -82,11 +82,11 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
-    </div>
-    <div class="container heading-div">
-      <section class="user-work">
-        <h2 class="user-portfolio title">Чем мы занимаемся</h2>
+      <section class="heading-div">
+    <div class="container user-work">
+      <h2 class="user-portfolio title">Чем мы занимаемся</h2>
         <ul class="user-portfolio-list list">
           <li class="user-portfolio-img">
             <img src="img/img-1.jpg" alt="программирование" width="370" height="294" />
@@ -98,41 +98,47 @@
             <img src="img/img-3.jpg" alt="дизайн" width="370" height="294" />
           </li>
         </ul>
+      </div>
       </section>
-    </div>
+    <section class="user-team">
     <div class="container">
-      <section class="user-team">
-        <h2 class="user-team-title title">Наша команда</h2>
+      <h2 class="user-team-title title">Наша команда</h2>
         <ul class="user-team-list list">
           <li class="user-team-img">
             <img src="img/img-4.jpg" alt="Игорь Демьяненко" width="270" height="260" />
-            <h3 class="user-name title">Игорь Демьяненко</h3>
-            <p lang="en" class="user-profession">Product Designer</p>
+            <div class="profession-div">
+              <h3 class="user-name title">Игорь Демьяненко</h3>
+              <p lang="en" class="user-profession">Product Designer</p>
+            </div>
           </li>
           <li class="user-team-img">
             <img src="img/img-5.jpg" alt="Ольга Репина" width="270" height="260" />
-            <h3 class="user-name title">Ольга Репина</h3>
+            <div class="profession-div">
+              <h3 class="user-name title">Ольга Репина</h3>
             <p lang="en" class="user-profession">Frontend Developer</p>
+            </div>
           </li>
           <li class="user-team-img">
             <img src="img/img-6.jpg" alt="Николай Тарасов" width="270" height="260" />
+           <div class="profession-div">
             <h3 class="user-name title">Николай Тарасов</h3>
             <p lang="en" class="user-profession">Marketing</p>
+           </div>
           </li>
           <li class="user-team-img">
             <img src="img/img-7.jpg" alt="Михаил Ермаков" width="270" height="260" />
-            <h3 class="user-name title">Михаил Ермаков</h3>
+            <div class="profession-div">
+             <h3 class="user-name title">Михаил Ермаков</h3>
             <p lang="en" class="user-profession">UI Designer</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
-    </div>
-
-  </main>
-  <footer class="footer-contacts">
+     </main>
+  <footer class="footer-contacts footer-div">
     <div class="container">
-      <div class="footer-div">
-        <a href="" class="logo logo-footer">
+      <a href="" class="logo logo-footer">
           <span class="logo-1">Web</span><span class="logo-3">Studio</span></a>
         <div>
           <address class="footer-address">
@@ -150,7 +156,6 @@
             </ul>
           </address>
         </div>
-      </div>
     </div>
   </footer>
 </body>
