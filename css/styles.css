@@ -145,8 +145,8 @@ body {
   padding-bottom: 94px;
  }
 
-.heading {
-  background-color: #2f303a;
+ .heading {
+ background-color: #2f303a;
  height: 600px;
  padding-top: 200px;
  }
@@ -194,15 +194,16 @@ body {
   border-color: var(--activ-color);
 }
 
-.features {
-  width: 1170px;
+.heading-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-list {
   display: flex;
 }
 
-.features-list:not(:last-child) {
+.features-section:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -257,15 +258,15 @@ body {
 
 .user-team {
   background-color: #f5f4fa;
-  padding-top: 95px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   }
 
 .user-team-title {
   display: block;
   margin: 0;
   text-align: center;
-  /* padding-top: 94px; */
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
