@@ -188,7 +188,7 @@ body {
 
 .container > .button-heading-activ:hover,
 .container > .button-heading-activ:focus {
-  background-color: #1782da;
+  background-color: #188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: var(--activ-color);
